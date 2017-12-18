@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="panel" prefHeight="682.0" prefWidth="944.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="parametres.Controller">
+   <children>
+      <Slider fx:id="Nb" layoutX="14.0" layoutY="37.0" max="400.0" min="10.0" onMouseClicked="#clicked" prefHeight="51.0" prefWidth="906.0" showTickLabels="true" showTickMarks="true" value="100.0" />
+   </children>
+</AnchorPane>
