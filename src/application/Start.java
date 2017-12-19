@@ -9,7 +9,6 @@ import javafx.scene.layout.Pane;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Line;
 import javafx.stage.Stage;
-import parametres.Main;
 
 import static application.Constants.H;
 import static application.Constants.W;
@@ -46,7 +45,7 @@ public class Start extends Application {
         primaryStage.show();
 
 
-        new Main();
+        // new Main();
 
         Animation0 anim = new Animation0(this);
         anim.start();

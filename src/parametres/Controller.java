@@ -10,5 +10,6 @@ public class Controller {
 
     public void clicked(MouseEvent mouseEvent) {
         double nb = Nb.getValue();
+        System.out.println(nb);
     }
 }
